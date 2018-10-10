@@ -7,7 +7,7 @@
 function String_Get_Valores($solicitud){
 
 	if ($solicitud == "titulo") {
-		return "Liga Santandereana de Fútbol";
+		return "Camelot Gimnasio Psicopedagogico";
 	}else if ($solicitud == "copyright") {
 		return "Developers Team  Todos los derechos reservados.";
 	}else if ($solicitud == "version") {
@@ -19,11 +19,11 @@ function String_Get_Valores($solicitud){
 	}else if ($solicitud == "server") {
 		return "localhost";
 	}else if ($solicitud == "username") {
-		return "ligasa_adminp";
+		return "root";
 	}else if ($solicitud == "password") {
-		return "-lh7vkm-0.mE";
+		return "";
 	}else if ($solicitud == "basededatos") {
-		return "ligasa_produccion";
+		return "camelot_desarrollo";
 	}else if ($solicitud == "color") { // color de todo el form
 		return "#ECF0F1";
 	}else if ($solicitud == "letracolor") {// color de el encabezado de las tablas
@@ -35,11 +35,11 @@ function String_Get_Valores($solicitud){
 	}
 	// VALORES DE CONTACTO 
 	else if ($solicitud == "telefono") {// color de el encabezado de las tablas
-		return "+7 6450038 -  317 427 9583";
+		return "+7 6454386 -  318 576 5751";
 	}else if ($solicitud == "direccion") {// color de los titulos de las tablas
 		return "Carrera 30 No 14 - 45 Oficina 409";
 	}else if ($solicitud == "email") {// letra de el encabezado 
-		return "lsf@ligasantandereanadefutbol.co";
+		return "contacto@colegiocamelot.edu.co";
 	}
 }
 /**
@@ -49,18 +49,18 @@ function String_Get_Valores($solicitud){
 
 function url()
 {
-	return "/Admin/";
+	return "Camelot/yeahkids/Admin/";
 }
 function base_url()
 {
 	//$pagina = "192.168.1.58";
-	$pagina= "ligasantandereanadefutbol.co";
-	return "https://".$pagina.url();
+	$pagina= "localhost";
+	return "http://".$pagina.url();
 }
 function base_url_usuarios()
 {
 	//$pagina = "192.168.1.58";
-	$pagina= "ligasantandereanadefutbol.co/";
+	$pagina= "localhost/Camelot/yeahkids/";
 	return "http://".$pagina."";
 }	
 
