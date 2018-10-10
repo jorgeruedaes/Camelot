@@ -465,24 +465,24 @@ $("#about_teacher_owl, #single_event_gallery").owlCarousel({
   /*------------------ Index Timer ------------------*/ 
 
   $("#index_timer")
-  .countdown("2018/12/12", function(event) { /* change date */
+  .countdown("2018/10/20", function(event) { /* change date */
     $(this).html(
-      event.strftime(' <div class="time">%D<span class="label">days</span></div>' 
-       + '<div class="time">%H<span class="label">hours</span></div>'
-       + '<div class="time dots">%M<span class="label">minutes</span></div>'
-       + '<div class="time dots">%S<span class="label">seconds</span></div>')
+      event.strftime(' <div class="time">%D<span class="label">días</span></div>' 
+       + '<div class="time">%H<span class="label">horas</span></div>'
+       + '<div class="time dots">%M<span class="label">minutos</span></div>'
+       + '<div class="time dots">%S<span class="label">segundos</span></div>')
     );
   });
 
 /*------------------ Event Page Timer ------------------*/ 
 
     $("#register_timer")
-  .countdown("2018/12/12", function(event) { /* change date */
+  .countdown("2018/10/20", function(event) { /* change date */
     $(this).html(
-      event.strftime(' <div class="time">%D<span class="label">days</span></div>' 
-       + '<div class="time">%H<span class="label">hours</span></div>'
-       + '<div class="time dots">%M<span class="label">minutes</span></div>'
-       + '<div class="time dots">%S<span class="label">seconds</span></div>')
+      event.strftime(' <div class="time">%D<span class="label">días</span></div>' 
+       + '<div class="time">%H<span class="label">horas</span></div>'
+       + '<div class="time dots">%M<span class="label">minutos</span></div>'
+       + '<div class="time dots">%S<span class="label">segundos</span></div>')
     );
   });
 

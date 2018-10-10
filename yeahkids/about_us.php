@@ -259,5 +259,4 @@
 
 </body>
 
-<!--Template Generator --> <!--.com/html/yeahkids/about_us.htmlread, Mon, 08 Oct 2018 13:37:17 GMT -->
 </html>

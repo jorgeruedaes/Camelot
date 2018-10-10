@@ -37,7 +37,7 @@ function String_Get_Valores($solicitud){
 	else if ($solicitud == "telefono") {// color de el encabezado de las tablas
 		return "+7 6454386 -  318 576 5751";
 	}else if ($solicitud == "direccion") {// color de los titulos de las tablas
-		return "Carrera 30 No 14 - 45 Oficina 409";
+		return "Cl. 18 #24-35, Bucaramanga, Santander";
 	}else if ($solicitud == "email") {// letra de el encabezado 
 		return "contacto@colegiocamelot.edu.co";
 	}

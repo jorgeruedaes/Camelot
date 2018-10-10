@@ -7,7 +7,6 @@
  $ipvisitante=$_SERVER["REMOTE_ADDR"];
  ContadorVisitas($ipvisitante,'index');
  ?>
-<!--Template Generator --> <!--.com/html/yeahkids/blog.htmlread, Mon, 08 Oct 2018 13:40:24 GMT -->
 
 <body>
 	
@@ -32,7 +31,8 @@
 						<div class="col-md-1"></div>
 						<div class="col-md-10 dot">
 							<h2 class="section-title">Noticias</h2>
-							<p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+							<p class="section-description">Sección en la cual damos a conocer nuestros principales
+							eventos y noticias.</p>
 						</div>
 						<div class="col-md-1"></div>
 					</div>
@@ -241,97 +241,9 @@
 				</div>
 			</section>
 
-			<footer>
-				<div class="overlay_footer_kids_play"></div>
-				<div class="container">
-					<div class="row pb_40">
-						<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-							<div class="footer_about">
-								<h3>About</h3>
-								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-								<p class="footer_time"><i class="fa fa-clock-o"><span></span></i>Mon-Fri: 8.00 AM - 6.00 PM</p>
-								<div class="footer_social social_icon">
-									<ul>
-										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-							<h3>Tweets</h3>
-							<div class="footer_tweets">
-								<p><i class="fa fa-twitter"></i>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<p><i class="fa fa-twitter"></i>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<p><i class="fa fa-twitter"></i>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-							<h3>Instagram</h3>
-							<div class="footer_instagram">
-								<ul>
-									<li><a href="#"><img src="img/footer/footer_1.jpg" alt=""></a></li>
-									<li><a href="#"><img src="img/footer/footer_2.jpg" alt=""></a></li>
-									<li><a href="#"><img src="img/footer/footer_3.jpg" alt=""></a></li>
-									<li><a href="#"><img src="img/footer/footer_4.jpg" alt=""></a></li>
-									<li><a href="#"><img src="img/footer/footer_5.jpg" alt=""></a></li>
-									<li><a href="#"><img src="img/footer/footer_6.jpg" alt=""></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-							<h3>Newsletters</h3>
-							<div class="footer_newsletters">
-								<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-								<div class="footer_mail">
-									<form method="post" id="contact_form_footer">
-										<div class="form-group">
-											<input id="email_footer" name="email" type="text" placeholder="Your email">
-										</div>	
-										<div id="messegeResultFooter" class="messegeResult">
-											<p>The message was successfully sent</p>
-											<button type="submit">Send</button>
-										</div>					
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container_fluent copywriting">
-					<div class="row">
-						<div class="col-md-12">
-							<p>Copyright © 2017 Yeah Kids Template by <a href="http://fvdthemes.com/" target="_blank">FVD Themes</a></p>
-						</div>
-					</div>
-				</div>
-			</footer>
-
-			<!-- JS -->
-			<script src="js/jquery/jquery.min.js"></script>
-			<script src="js/owl.carousel/owl.carousel.min.js"></script>
-			<script src="js/bootstrap/bootstrap.js"></script>
-			<script src="js/isotope/isotope.pkgd.min.js"></script>
-			<script src="js/imagesloaded/imagesloaded.pkgd.js"></script>
-			<script src="js/magnific-popup/magnific-popup.min.js"></script>
-			<script src="js/parallax/parallax.min.js"></script>
-			<script src="js/page-scroll-to-id/jquery.malihu.PageScroll2id.js"></script>
-			<script src="js/wow/wow.min.js"></script>
-			<script src="js/object-fit-images/ofi.browser.js"></script>
-			<script src="js/validate/validate.js"></script>
-			<script src="js/count/jquery.countdown.min.js"></script>
-			<script src="js/count/jquery.countup.min.js"></script>
-			<script src="js/waypoints/jquery.waypoints.min.js"></script>
-			<script src="js/jquery-ui/jquery-ui.min.js"></script>
-			<script src="js/slick/slick.min.js"></script>
-			<script src="js/sticky-kit-master/sticky-kit.min.js"></script>
-			<script src="js/slider-pro-master/jquery.sliderPro.min.js"></script>
-			<script src="js/functionsf899.js?100"></script>
-			<!--End JS -->
-
 
 		</body>
-		
-<!--Template Generator --> <!--.com/html/yeahkids/blog.htmlread, Mon, 08 Oct 2018 13:41:06 GMT -->
+ <?php
+           include('footerinicial.php');
+           ?>
 </html>
