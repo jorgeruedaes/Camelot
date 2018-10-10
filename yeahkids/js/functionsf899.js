@@ -210,10 +210,10 @@ $(document).ready( function() {
         }
       },
       messages: {
-                name: "Please let us know who you are.",
-                email: "A valid email will help us get in touch with you.",
-                phone: "Please provide a valid phone number.",
-                phone_error: "Please provide a valid phone number.",
+                name: "Por favor permitenos conocer quién eres.",
+                email: "Ingrese un Email valido para estar en contacto con usted.",
+                phone: "Por favor escriba un numero de telefono valido.",
+                phone_error: "Por favor escriba un numero de telefono valido.",
             }
     });
   }
@@ -227,7 +227,7 @@ $(document).ready( function() {
         }
       },
       messages: {
-                email: "A valid email will help us get in touch with you.",
+                email: "Ingrese un Email valido para estar en contacto con usted.",
             }
     });
   }
@@ -628,7 +628,7 @@ var marker_event = 'img/icons/marker_event.png';
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
-    center: {lat: 30.533600, lng: -87.214598},
+    center: {lat: 7.130950504148771, lng: -73.12199915693859},
     scrollwheel: false,
     disableDefaultUI: true
   });
@@ -637,7 +637,7 @@ function initMap() {
     map: map,
     draggable: true,
     animation: google.maps.Animation.DROP,
-    position: {lat: 30.533600, lng: -87.214598},
+    position: {lat: 7.130950504148771, lng: -73.12199915693859},
     icon: marker_home
   });
 
@@ -646,7 +646,7 @@ function initMap() {
 function initMap_contact() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
-    center: {lat: 30.533600, lng: -87.214598},
+    center: {lat: 7.130950504148771, lng: -73.12199915693859},
     scrollwheel: false  
   });
 
@@ -654,7 +654,7 @@ function initMap_contact() {
     map: map,
     draggable: true,
     animation: google.maps.Animation.DROP,
-    position: {lat: 30.533600, lng: -87.214598},
+    position: {lat: 7.130950504148771, lng: -73.12199915693859},
     icon: marker_home
   });
 
@@ -663,7 +663,7 @@ function initMap_contact() {
 function initMap_event() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
-    center: {lat: 30.533600, lng: -87.214598},
+    center: {lat: 7.130950504148771, lng: -73.12199915693859},
     scrollwheel: false  
   });
 
@@ -671,7 +671,7 @@ function initMap_event() {
     map: map,
     draggable: true,
     animation: google.maps.Animation.DROP,
-    position: {lat: 30.533600, lng: -87.214598},
+    position: {lat: 7.130950504148771, lng: -73.12199915693859},
     icon: marker_event
   });
 
@@ -694,7 +694,7 @@ function initMap_event() {
 function initMap_footer() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 14,
-    center: {lat: 30.535966, lng: -87.222237},
+    center: {lat: 7.130950504148771, lng: -73.12199915693859},
     scrollwheel: false  
   });
 
@@ -702,7 +702,7 @@ function initMap_footer() {
     map: map,
     draggable: true,
     animation: google.maps.Animation.DROP,
-    position: {lat: 30.533600, lng: -87.214598},
+    position: {lat: 7.130950504148771, lng: -73.12199915693859},
     icon: marker_home
   });
 

@@ -10,8 +10,7 @@
 
 <body>
 
-
-			
+	
 <section id="slider" class="section-block-wrapper">
 
 			<!-- Background swither -->
@@ -86,27 +85,27 @@
 									<div class="sp-slide">
 										<img class="sp-image" src="img/home/slider_home_2.jpg" alt="The Last of us">
 										<div class="sp-layer sp-static slide_block_text" data-position="bottomLeft" data-horizontal="40" data-vertical="57" data-show-delay="400" data-hide-delay="400">
-											<h3>Welcome to YeahKids</h3>
-											<p>A perfect learning center for your kids</p>
-											<span><a href="#">Read more</a></span>
+											<h3>Bienvenido a Camelot</h3>
+											<p>El centro de aprendizaje para tus hijos</p>
+											<span><a href="about_us.php">Leer más</a></span>
 										</div>
 										<div class="sp-caption slide_block_text">
-										  <h3>Welcome to YeahKids</h3>
-											<p>A perfect learning center for your kids</p>
-											<span><a href="#">Read more</a></span>
+										  <h3>Bienvenido a Camelot</h3>
+											<p>El perfecto centro de aprendizaje para tus hijos</p>
+											<span><a href="about_us.php">Leer más</a></span>
 										</div>
 									</div>
 									<div class="sp-slide">
 										<img class="sp-image" src="img/home/slider_home_3.jpg" alt="The Last of us">
 										<div class="sp-layer sp-static slide_block_text" data-position="bottomLeft" data-horizontal="40" data-vertical="57" data-show-delay="400" data-hide-delay="400">
-											<h3>Amazing Illustrations</h3>
-											<p>Customizable illustration desings</p>
-											<span><a href="#">Read more</a></span>
+											<h3>Increibles ilustraciones</h3>
+											<p>Diseños personalizables</p>
+											<span><a href="#">Leer más</a></span>
 										</div>
 										<div class="sp-caption slide_block_text">
-										  <h3>Welcome to YeahKids</h3>
-											<p>A perfect learning center for your kids</p>
-											<span><a href="#">Read more</a></span>
+										  <h3>Bienvenido a Camelot</h3>
+											<p>El centro de aprendizaje para tus hijos</p>
+											<span><a href="about_us.php">Leer más</a></span>
 										</div>
 									</div>
 								</div>
@@ -923,118 +922,22 @@
 										<div class="col-md-4 col-sm-5 location_info">
 											<div class="location_block">
 												<div class="overlay_footer_copter hidden-sm hidden-xs"></div>
-												<p class="location">Location</p>
-												<p class="phone">123 456-78-90</p>
-												<p class="adress">Anderson Blvd PT Box 4355444, Tampa, FR 954816</p>
-												<p><a href="#">office@yeahkids.com</a></p>
+												<p class="location">Ubicación</p>
+												<p class="phone"><?php echo String_Get_Valores('telefono') ?></p>
+												<p class="adress">Cl. 18 #24-35, Bucaramanga, Santander</p>
+												<p><a href="#"><?php echo String_Get_Valores('email') ?></a></p>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<footer>
-								<div class="overlay_footer_land"></div>
-								<div class="container">
-									<div class="row pb_40">
-										<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-											<div class="footer_about">
-												<h3>About</h3>
-												<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-												<p class="footer_time"><i class="fa fa-clock-o"><span></span></i>Mon-Fri: 8.00 AM - 6.00 PM</p>
-												<div class="footer_social social_icon">
-													<ul>
-														<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-														<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-														<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-											<h3>Tweets</h3>
-											<div class="footer_tweets">
-												<p><i class="fa fa-twitter"></i>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-												<p><i class="fa fa-twitter"></i>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-												<p><i class="fa fa-twitter"></i>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-											</div>
-										</div>
-										<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-											<h3>Instagram</h3>
-											<div class="footer_instagram">
-												<ul>
-													<li><a href="#"><img src="img/footer/footer_1.jpg" alt=""></a></li>
-													<li><a href="#"><img src="img/footer/footer_2.jpg" alt=""></a></li>
-													<li><a href="#"><img src="img/footer/footer_3.jpg" alt=""></a></li>
-													<li><a href="#"><img src="img/footer/footer_4.jpg" alt=""></a></li>
-													<li><a href="#"><img src="img/footer/footer_5.jpg" alt=""></a></li>
-													<li><a href="#"><img src="img/footer/footer_6.jpg" alt=""></a></li>
-												</ul>
-											</div>
-										</div>
-										<div class="col-md-3 col-sm-12 col-xs-12 mb_15">
-											<h3>Newsletters</h3>
-											<div class="footer_newsletters">
-												<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
-												<div class="footer_mail">
-													<form method="post" id="contact_form_footer">
-														<div class="form-group">
-															<input id="email_footer" name="email" type="text" placeholder="Your email">
-														</div>	
-														<div id="messegeResultFooter" class="messegeResult">
-															<p>The message was successfully sent</p>
-															<button type="submit">Send</button>
-														</div>					
-													</form>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="container_fluent copywriting">
-									<div class="row">
-										<div class="col-md-12">
-											<p>Copyright © 2017 Yeah Kids Template by <a href="http://fvdthemes.com/" target="_blank">FVD Themes</a></p>
-										</div>
-									</div>
-								</div>
-							</footer>
-							<!-- Replace end-->
-							<!-- go to top -->
-							<a href="#home" class="scrollup"><span><i class="fa fa-angle-up"></i></span></a>
-							<!-- end go to top -->
-
-							<!-- JS -->
-							<script src="js/jquery/jquery.min.js"></script>
-							<script src="js/owl.carousel/owl.carousel.min.js"></script>
-							<script src="js/bootstrap/bootstrap.js"></script>
-							<script src="js/isotope/isotope.pkgd.min.js"></script>
-							<script src="js/imagesloaded/imagesloaded.pkgd.js"></script>
-							<script src="js/magnific-popup/magnific-popup.min.js"></script>
-							<script src="js/parallax/parallax.min.js"></script>
-							<script src="js/page-scroll-to-id/jquery.malihu.PageScroll2id.js"></script>
-							<script src="js/wow/wow.min.js"></script>
-							<script src="js/object-fit-images/ofi.browser.js"></script>
-							<script src="js/count/jquery.countdown.min.js"></script>
-							<script src="js/count/jquery.countup.min.js"></script>
-							<script src="js/waypoints/jquery.waypoints.min.js"></script>
-							<script src="js/jquery-ui/jquery-ui.min.js"></script>
-							<script src="js/slick/slick.min.js"></script>
-							<script src="js/validate/validate.js"></script>
-							<script src="js/sticky-kit-master/sticky-kit.min.js"></script>
-							<script src="js/slider-pro-master/jquery.sliderPro.min.js"></script>
-							<script src="js/functionsf899.js?100"></script>
-							<script src="js/send28fd.js?031"></script>
-							<script src="js/parallax-object/parallax.min.js"></script>
-							<script>
-								var scene = document.getElementById('scene');
-								var parallax = new Parallax(scene);
-							</script>
-							<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbXi2uWlIICzBfpjQ_xBVI6ae1M-cmBzg&amp;callback=window.initMap"
-							async defer></script>
+						
 							<!--End JS -->
 
 
 						</body>
 						
-<!--Template Generator --> <!--.com/html/yeahkids/read, Mon, 08 Oct 2018 13:34:58 GMT -->
+           <?php
+           include('footerinicial.php');
+           ?>
 </html>

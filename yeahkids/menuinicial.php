@@ -19,7 +19,7 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Favicon and Apple Touch Icons -->
-  <link rel="shortcut icon" href="img/favicon/favicon1.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon/favicon1.png" type="image/x-icon">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.html">
   <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.html">
   <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.html">
@@ -55,15 +55,15 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
         <div class="row">
           <div class="col-md-3 col-sm-3 col-xs-12">
             <div class="logo_block">
-              <a href="index-2.html"><img src="img/header/logo.png" alt="">
-                <span>Colegio Camelot</span>
+              <a href="index.php"><img src="img/header/logo.png" alt="" style="width: 200px;">
+                <span></span>
               </a>
             </div>
           </div>
           <div class="col-md-9 col-sm-9 col-xs-12">
             <div class="reg_block">
               <ul>
-                <li><a href="mailto:office@yeahkids.com"><?php echo String_Get_Valores('email') ?></a></li>
+                <li><a href="mailto:<?php echo String_Get_Valores('email') ?>"><?php echo String_Get_Valores('email') ?></a></li>
                 <li class="reg_style">
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="14px"
                   viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
@@ -84,7 +84,7 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
                   l-0.1,0l-0.1,0l-0.1-0.1l-0.1-0.1l0-0.1c0,0,0-0.1,0-0.2s0-0.2,0-0.3s0-0.2,0-0.3s0.1-0.2,0.1-0.2S10.8,0,10.9,0h3.8
                   c0.9,0,1.7,0.3,2.4,0.9S18,2.3,18,3.2z"/>
                 </svg>
-                LOG IN</a></li>
+                Ingresar</a></li>
                 <li class="reg_style"><a href="reg.html">
                   <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="14px"
                   viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
@@ -92,7 +92,7 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
                   c0.5,0.2,1.1,0.3,1.8,0.3c2.7,0,4.9-2.2,4.9-4.9S11.8,0,9.1,0S4.2,2.2,4.2,4.9c0,0.6,0.1,1.2,0.3,1.8L0.2,11C0.1,11.1,0,11.3,0,11.5
                   z M8.4,3.8c0-1,0.8-1.8,1.8-1.8s1.8,0.8,1.8,1.8s-0.8,1.8-1.8,1.8S8.4,4.8,8.4,3.8z"/>
                 </svg>
-                REGISTER</a></li>
+                Registrar</a></li>
               </ul>
             </div>
           </div>
@@ -101,7 +101,7 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
     </div>
     <div class="section_menu">
       <div class="mnu_fixed">
-        <div class="mnu_wave"></div>
+       <!-- <div class="mnu_wave"></div>-->
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12">
@@ -135,98 +135,41 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
               </div>
               <div class="mnu hidden-sm hidden-xs">
                 <ul>
-                  <li class="drop1"><a href="index-2.html">Home</a>
-                  </li>
-                  <li class="drop2"><a href="about_us.html">About us</a>
-                    <ul class="mnu_child">
-                      <li><a href="teachers.html">Teachers</a></li>
-                      <li><a href="teacher.html">Teacher</a></li>
-                    </ul>
-                  </li>
-                  <li class="drop3"><a href="service_v1.html">Services</a>
-                    <ul class="mnu_child">
-                      <li><a href="service_v2.html">Version 2</a></li>
-                    </ul>
-                  </li>
-                  <li class="drop4"><a href="javascript:void(0);">Page</a>
-                    <ul class="mnu_child">
-                      <li><a href="events.html">Events</a></li>
-                      <li><a href="event.html">Event</a></li>
-                      <li><a href="price-table_a.html">Price V1</a></li>
-                      <li><a href="price-table_b.html">Price V2</a></li>
-                      <li><a href="gallery.html">Gallery</a></li>
-                      <li><a href="reviews.html">Reviews</a></li>
-                      <li><a href="FAQ.html">FAQ</a></li>
-                      <li><a href="404.html">404</a></li>
-                    </ul>
-                  </li>
-                  <li class="drop5"><a href="blog.html">Blog</a>
-                    <ul class="mnu_child">
-                      <li><a href="blog_article.html">Post</a></li>
-                    </ul>
-                  </li>
-                  <li class="drop6"><a href="shop_grid.html">Shop</a>
-                    <ul class="mnu_child">
-                      <li><a href="shop_list.html">Version 2</a></li>
-                      <li><a href="shop_item.html">
-                        Item page</a></li>
-                        <li><a href="shop_cart.html">Cart</a></li>
-                        <li><a href="shop_cart_empty.html">Cart Empty</a></li>
-                      </ul>
-                    </li>
-                    <li class="drop7"><a href="contact.html">Contact us</a>
-                    </li>
+                    <?php
+                    $contador =1;
+                    $vector = Array_Get_Modulos_All_Users();
+                    foreach ($vector as $value) {
+
+                     if ($value['submenu']=='0')
+                     {
+                      ?>
+                      <li class="drop<?php echo $contador  ?>"><a href="<?php echo $value['ruta']; ?>"><?php echo $value['nombre']; ?></a></li>
+                      <?php 
+                      $contador ++;
+                    }
+                    }
+                    ?>
                   </ul>
                 </div>
               </div>
+              <!-- menu movil -->
               <div class="col-sm-12 col-xs-12 top_mnu">
                 <div class="mobile_mnu">
                   <ul>
-                    <li class="drop1"><a href="index-2.html">Home</a>
-                    </li>
-                    <li class="drop2"><a class="drop2_mnu" href="#">About us</a>
-                      <ul class="mnu_child drop_mnu2">
-                        <li><a href="about_us.html">About us</a></li>
-                        <li><a href="teachers.html">Teachers</a></li>
-                        <li><a href="teacher.html">Teacher</a></li>
-                      </ul>
-                    </li>
-                    <li class="drop3"><a class="drop3_mnu" href="#">Services</a>
-                      <ul class="mnu_child drop_mnu3">
-                        <li><a href="service_v1.html">Version 1</a></li>
-                        <li><a href="service_v2.html">Version 2</a></li>
-                      </ul>
-                    </li>
-                    <li class="drop4"><a class="drop4_mnu" href="#">Page</a>
-                      <ul class="mnu_child drop_mnu4">
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="event.html">Event</a></li>
-                        <li><a href="price-table_a.html">Price V1</a></li>
-                        <li><a href="price-table_b.html">Price V2</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="reviews.html">Reviews</a></li>
-                        <li><a href="FAQ.html">FAQ</a></li>
-                        <li><a href="404.html">404</a></li>
-                      </ul>
-                    </li>
-                    <li class="drop5"><a class="drop5_mnu" href="#">Blog</a>
-                      <ul class="mnu_child drop_mnu5">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog_article.html">Post</a></li>
-                      </ul>
-                    </li>
-                    <li class="drop6"><a class="drop6_mnu" href="#">Shop</a>
-                      <ul class="mnu_child drop_mnu6">
-                        <li><a href="shop_grid.html">Version 1</a></li>
-                        <li><a href="shop_list.html">Version 2</a></li>
-                        <li><a href="shop_item.html">
-                          Item page</a></li>
-                          <li><a href="shop_cart.html">Cart</a></li>
-                          <li><a href="shop_cart_empty.html">Cart Empty</a></li>
-                        </ul>
-                      </li>
-                      <li class="drop7"><a href="contact.html">Contact us</a>
-                      </li>
+                      <?php
+                    $contador =1;
+                    $vector = Array_Get_Modulos_All_Users();
+                    foreach ($vector as $value) {
+
+                     if ($value['submenu']=='0')
+                     {
+                      ?>
+                      <li class="drop<?php echo $contador  ?>"><a href="<?php echo $value['ruta']; ?>"><?php echo $value['nombre']; ?></a></li>
+                      <?php 
+                      $contador ++;
+                    }
+                    }
+                    ?>
                     </ul>
                   </div>
                 </div>
@@ -236,126 +179,4 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
         </div>
       </header>
 
-      <!--// Main Wrapper \\-->
-
-                    <li><i class="fa fa-phone"></i><?php echo String_Get_Valores('telefono') ?></li>
-                    <li><i class="fa fa-map-marker"></i><?php echo String_Get_Valores('direccion') ?></li>
-                    <li><i class="fa fa-envelope-o"></i> <a class="break-word" href="#"><?php echo String_Get_Valores('email') ?></a></li> 
-                  </ul> 
-                </div>
-              </div>
-            </div>
-          </div> 
-          <!--// TopSection \\-->
-          <!--// Main Header \\-->
-          <div class="ec-main-navsection">
-            <div class="container">
-              <a href="#" class="ec-logo"><img src="webs/images/logo-1.png" alt=""></a>
-              <div class="ec-right-section">
-                <nav class="ec-navigation">
-                  <ul>
-                    <?php
-                    $vector = Array_Get_Modulos_All_Users();
-                    foreach ($vector as $value) {
-
-                     if ($value['submenu']=='0')
-                     {
-                      ?>
-                      <li class=""><a href="<?php echo $value['ruta']; ?>"><?php echo $value['nombre']; ?></a></li>
-                      <?php 
-                    }
-                    else
-                    {
-                     ?>
-                     <li class="active"><a href="<?php echo $value['ruta']; ?>"><?php echo $value['nombre']; ?></a>
-                      <ul class="as-dropdown">
-
-                      <?php
-                       $vectores = Array_Get_Modulos_Sons_All_Users($value['id_modulos']); 
-
-                        foreach ($vectores as $values) {
-
-                          if ($values['submenu']=='0')
-                          {
-                            ?>
-                            <li class=""><a href="<?php echo $values['ruta']; ?>"><?php echo $values['nombre']; ?></a></li>
-                            <?php 
-                          }else{
-                            ?>
-                           <li class="active"><a href="<?php echo $values['ruta']; ?>">
-                            <?php echo $values['nombre']; ?></a>
-
-                            <ul class="as-dropdown">
-                              <?php
-                              $vectoresFinales = Array_Get_Modulos_Sons_All_Users($values['id_modulos']); 
-                              foreach ($vectoresFinales as $valuess) {
-                               ?>
-                               <li><a href="<?php echo $valuess['ruta']; ?>"><?php echo $valuess['nombre']; ?></a></li>
-                               <?php
-                             }  
-                             ?>
-
-                           </ul>
-
-                           
-                            <?php
-                          }
-
-                        }
-                          ?>
-                     </ul>
-                   </li>
-                   <?php
-             }
-           }
-             ?>
-           </ul>
-         </nav>
-         <!--// End Main Header \\-->
-
-         <!--// Responsive Menu //-->
-         <div id="as-menu" class="as-menuwrapper" >
-          <button class="as-trigger">Open Menu</button>
-          <ul class="as-menu">
-            <?php
-            $vector = Array_Get_Modulos_All_Users();
-            foreach ($vector as $value) {
-
-             if ($value['submenu']=='0')
-             {
-              ?>
-              <li class=""><a href="<?php echo $value['ruta']; ?>"><?php echo $value['nombre']; ?></a></li>
-              <?php 
-            }
-            else
-            {
-             ?>
-             <li class="active"><a href="<?php echo $value['ruta']; ?>"><?php echo $value['nombre']; ?></a>
-              <ul class="as-submenu">
-                <?php
-                $vectores = Array_Get_Modulos_Sons_All_Users($value['id_modulos']); 
-                foreach ($vectores as $values) {
-                 ?>
-                 <li><a href="<?php echo $values['ruta']; ?>"><?php echo $values['nombre']; ?></a></li>
-                 <?php
-               }	
-               ?>
-
-             </ul>
-           </li>
-           <?php
-         }
-       }
-       ?>
-
-     </ul>
-   </div>
-   <!--// Responsive Menu //-->
-   <!--  -->
- </div>
-</div>
-</div>
-<!--// Main Header \\-->
-</header>
-<!--// Main Header \\-->
 </body>
