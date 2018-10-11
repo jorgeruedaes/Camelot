@@ -2738,4 +2738,39 @@ function Get_Lista_Clubes($estado){
 
 }
 
+//--------------------------------------------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------------------------------------------//
+//------------------------------------------COLEGIO COLEGIO COLEGIO COLEGIO-------------------------------------------------//
+//--------------------------------------------------------------------------------------------------------------------------//
+
+
+function Get_profesores(){
+
+    global $conexion;
+    $valor = mysqli_query($conexion, "SELECT *
+       FROM tb_profesores order by codigoprofesor");
+    $datos = array();
+    while ($informacion = mysqli_fetch_array($valor)) {
+        $codigoprofesor  = $informacion['codigoprofesor'];
+        $nombre = $informacion['nombre'];
+        $imagen  = $informacion['imagen'];
+        $salon = $informacion['salon'];
+        $correo  = $informacion['email'];
+        $frase = $informacion['frase'];
+        $estudios  = $informacion['estudios'];
+        $vector = array(
+            'codigoprofesor' => "$codigoprofesor",
+            'nombre' => "$nombre",
+            'imagen' => "$imagen",
+            'salon' => "$salon",
+            'correo' => "$correo",
+            'frase' => "$frase",
+            'estudios' => "$estudios"
+            );
+        array_push($datos, $vector);
+    }
+    
+    return $datos;
+
+}
 ?>

@@ -107,11 +107,11 @@ setlocale(LC_TIME, 'es_ES.UTF-8');
             <div class="col-md-12 col-sm-12">
               <div class="mnu mnu_mobile hidden-lg hidden-md">
                 <div class="icon_shop hidden-lg hidden-md">
-                  <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
                 </div>
                 <div class="input_search hidden-lg hidden-md">
-                  <input type="text" placeholder="Search...">
-                  <a class="btnsearch" href="#"><i class="fa fa-search"></i></a>
+               <!--   <input type="text" placeholder="Search...">
+                  <a class="btnsearch" href="#"><i class="fa fa-search"></i></a>-->
                 </div>
                 <div class="toggle_block hidden-lg hidden-md">
                   <a href="#" class="toggle-mnu"><span></span></a>

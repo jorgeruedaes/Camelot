@@ -22,10 +22,10 @@ ContadorVisitas($ipvisitante,'index');
 					<i class="fa fa-cog"></i>
 				</div>
 				<div class="color-sw-header">
-					Background switcher <span class="color-sw-close" id="color-sw-close"><i class="fa fa-close"></i></span>
+					Intercambiar fondo <span class="color-sw-close" id="color-sw-close"><i class="fa fa-close"></i></span>
 				</div>
 				<div class="color-sw-body">
-					<p>Choose background style</p>
+					<p>Selecciona un fondo</p>
 					<div class="color-sw-item active" id="slider_background_v1">
 						<div></div>
 					</div>
@@ -133,30 +133,30 @@ ContadorVisitas($ipvisitante,'index');
 				<h2>Qué ofrecemos</h2>
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="offer_block offer_red wow fadeInUp">
-						<i class="fa fa-diamond"></i>
-						<h4>Programas</h4>
-						<p>Contamos con educadores competentes, seleccionados adecuadamente para dar a los niños(as) el mejor apoyo que permita su óptimo desarrollo en todas las áreas.</p>
+						<i class="fa fa-mortar-board"></i>
+						<h4>Compromiso Academico</h4>
+						<p>Apostamos por una enseñanza académica de calidad, para lo cual siempre requerimosde un personal docente comprometido con sus labores, con el propio crecimiento y la actualización del saber y metodologias.</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="offer_block offer_blue wow fadeInUp">
-						<i class="fa fa-music"></i>
-						<h4>Creatividad</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<i class="fa fa-handshake-o"></i>
+						<h4>Formación integral</h4>
+						<p>Un buen colegio, en ese sentido, persigue la constitución académica, moral, ética, física y espiritual de sus alumnos, a través de diversos espacios y estrategias propicios para el estímulo de dichos aprendizajes.</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4 col-xs-12">
 					<div class="offer_block offer_green wow fadeInUp">
-						<i class="fa fa-magic"></i>
-						<h4>Cuidado epecializado</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+						<i class="fa fa-futbol-o"></i>
+						<h4>Formación social y deportiva</h4>
+						<p>Contamos con los espacios necesarios fuera del aula para el ejercicio y el deporte, indispensables durante las etapas tempranas de la vida del niño así como de áreas que fomentan el intercambio social, la persecución de los intereses artísticos (musicales, etc.)</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="about">
-		<div class="overlay_one">
+		<!--<div class="overlay_one">
 			<div class="bg_top"></div>
 			<div class="bg_bottom"></div>
 		</div>
@@ -167,7 +167,7 @@ ContadorVisitas($ipvisitante,'index');
 		<div class="overlay_three">
 			<div class="bg_top"></div>
 			<div class="bg_bottom"></div>
-		</div>
+		</div>-->
 		<div class="container">
 			<div class="row">
 				<h2>Nosotros</h2>
@@ -175,13 +175,21 @@ ContadorVisitas($ipvisitante,'index');
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<p><strong>Gimnasio Psicopedagógico Camelot</strong>
  					educamos a su hijo teniendo en cuenta que él es el centro de desarrollo de nuestra labor educativa. Por tal motivo, nuestro trabajo tendrá como propósito orientar al niño(a) para que sea una persona creativa, crítica, autónoma, útil y responsable de sus actuaciones, que valore lo propio siendo parte activa dentro de su entorno social.</p>
+ 					<ul>
+ 						<li>Formación integral</li>
+ 						<li>Docentes comprometidos</li>
+ 						<li>La colaboración entre padres  e institución</li>
+ 						<li>Un clima propicio para el aprendizaje</li>
+ 						<li>Atención de las necesidades especiales</li>
+ 					</ul>
+ 					<p><strong>Somos Camelot, el lugar propocio para la formación de sus hijos.</strong></p>
 					</div>
 					<div class="col-md-6 col-sm-12 col-xs-12 about_img_block wow fadeIn">
 						<img src="img/home/about_img.jpg" alt="">
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<!--<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="about_tabs">
 						<div class="about_bear_img hidden-sm hidden-xs">
@@ -249,7 +257,7 @@ ContadorVisitas($ipvisitante,'index');
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 		</div>
 	</section>
 	<section id="portfolio" class="portfolio text-center section">
@@ -408,6 +416,7 @@ ContadorVisitas($ipvisitante,'index');
 			</div>
 			<div class="row arrows_red">
 				<div id="teacher_owl" class="owl-carousel owl-theme">
+
 					<div class="item">
 						<div class="row">
 							<div class="col-md-12">
@@ -452,6 +461,7 @@ ContadorVisitas($ipvisitante,'index');
 							</div>
 						</div>
 					</div>
+					
 					<div class="item">
 						<div class="row">
 							<div class="col-md-12">
@@ -761,13 +771,13 @@ ContadorVisitas($ipvisitante,'index');
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
-					<h2 class="section-title">FAQ</h2>
+					<h2 class="section-title">Preguntas Frecuentes</h2>
 					<div class="panel-group" id="accordion">
 						<div class="panel panel-contact">
 							<div class="panel-heading actives">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-									Lorem ipsum dolor sit amet</a>
+									Nuestros Horarios</a>
 								</h4>
 							</div>
 							<div id="collapse1" class="panel-collapse collapse in">
@@ -821,7 +831,7 @@ ContadorVisitas($ipvisitante,'index');
 								<input id="email" name="email" type="text" placeholder="E-mail">
 							</div>
 							<div class="form-group">
-								<input id="phone" name="phone" type="text" placeholder="Numero de Celular">
+								<input id="phone" name="phone" type="text" placeholder="Numero de celular">
 							</div>		
 							<textarea id="message" name="message" rows="3" placeholder="Mensaje"></textarea>
 							<div id="messegeResult" class="messegeResult">
